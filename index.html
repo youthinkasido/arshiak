@@ -29,6 +29,9 @@
   
   </style>
 
+  
+  </script>
+
 
 
   <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -344,8 +347,14 @@
             <p>4045147112</p>
           </div>
         </div>
+
+
+
+
+
         <hr class="w3-opacity" />
-        <form action="mailto:arshiakhoshnood@gmail.com" target="_blank" method="post" enctype="text/plain">
+        <form action="https://formspree.io/arshiakhoshnood@gmail.com" method="POST" />
+
           <div class="w3-section">
             <label>Name</label>
             <input
@@ -373,9 +382,9 @@
               required
             />
           </div>
-          <button type="submit" class="w3-button w3-black w3-margin-bottom">
+          <input type="submit" class="w3-button w3-black w3-margin-bottom">
             <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
-          </button>
+        </input>
         </form>
       </div>
 
@@ -455,6 +464,8 @@
       <!-- End page content -->
     </div>
 
+    <script src="./email.js"></script>
+
     <script>
       // Script to open and close sidebar
       function w3_open() {
@@ -466,6 +477,13 @@
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
       }
+
+      if (window.location.href !== window.location.href+ '/#'){
+        window.location.href += '/#'
+      }
+     
     </script>
+
+
   </body>
 </html>

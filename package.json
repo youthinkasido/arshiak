@@ -1,0 +1,23 @@
+{
+  "name": "arshiak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youthinkasido/arshiak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youthinkasido/arshiak/issues"
+  },
+  "homepage": "https://github.com/youthinkasido/arshiak#readme",
+  "dependencies": {
+    "sweetalert2": "^8.18.0"
+  }
+}
