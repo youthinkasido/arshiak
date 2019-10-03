@@ -478,7 +478,9 @@
         document.getElementById("myOverlay").style.display = "none";
       }
 
-     window.location.href + '#'
+      if (window.location.href.length < 31){
+     window.location.href += '#'
+      }
     
      
     </script>
