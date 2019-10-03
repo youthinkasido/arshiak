@@ -478,7 +478,8 @@
         document.getElementById("myOverlay").style.display = "none";
       }
 
-      if (window.location.href !== window.location.href+ '/#'){
+      let url = window.location.href
+      if (url.length < 32){
         window.location.href + '/#'
       }
      
